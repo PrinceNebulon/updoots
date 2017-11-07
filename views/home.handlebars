@@ -1,0 +1,19 @@
+{{#each doots}}
+<div class="doot-container">
+	<div class="doot-buttons-container">
+			<span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+		<div class="doot-buttons">
+			<span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+		</div>
+	</div>
+	<div class="doot-title">{{title}}</div>
+	<div class="doot-info">
+		<span class="doot-author">{{author}}</span>
+		<span class="doot-timestamp">Last updated: {{updatedDate}}</span>
+	</div>
+	<div class="doot-clear"></div>
+	<div class="doot-body">
+		{{body}}
+	</div>
+</div>
+{{/each}}
